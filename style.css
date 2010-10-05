@@ -11,6 +11,12 @@ body {
   margin: 0 auto;
 }
 
+table {
+  line-height: 1.4em;
+  width: 800px;
+  margin-bottom: 10px;
+}
+
 a {
   text-decoration: none;
   border-bottom: 1px dotted;
