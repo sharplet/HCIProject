@@ -25,3 +25,7 @@ a {
 a:hover, a:active {
   border-bottom: 1px solid;
 }
+
+img {
+  border: 1px solid;
+}
