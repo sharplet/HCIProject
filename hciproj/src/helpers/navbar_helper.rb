@@ -1,17 +1,24 @@
 module NavbarHelper
-	def navbar(page)
-	  items = ['/index.html', '/phase1/index.html', '/phase2/index.html', '/phase3/index.html', '/phase4/index.html', '/phase5/index.html']
-		labels = { '/index.html' => 'Home', '/phase1/index.html' => 'Phase 1', '/phase2/index.html' => 'Phase 2', '/phase3/index.html' => 'Phase 3', '/phase4/index.html' => 'Phase 4', '/phase5/index.html' => 'Phase 5' }
-	  navbar = items.collect do |i|
+	def navbar(
+		page,
+		list = 'ul',
+		items = [
+			['/index.html', '/phase1/index.html', '/phase2/index.html', '/phase3/index.html', '/phase4/index.html', '/phase5/index.html'],
+			['Home', 'Phase 1', 'Phase 2', 'Phase 3', 'Phase 4', 'Phase 5'] 
+		])
+
+		nav = ''
+	  items[1].each_index do |i|
 	    active = ''
-	    label = labels[i]
-	    if (page == i)
+	    label = items[1][i]
+	    if (page == items[0][i])
 	      active = ' class="active"'
 	    else
-	      label = "<a href=\"#{i}\">#{labels[i]}</a>"
+	      label = "<a href=\"#{items[0][i]}\">#{label}</a>"
 	    end
-	    "  <li#{active}>#{label}</li>\n"
+			nav += "  <li#{active}>#{label}</li>\n"
 	  end
-		"<ul>\n#{navbar}</ul>"
+
+		"<#{list}>\n#{nav}</#{list}>"
 	end
 end
