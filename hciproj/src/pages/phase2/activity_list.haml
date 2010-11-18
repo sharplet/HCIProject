@@ -1,10 +1,8 @@
-%h2
-  This phase
+%h2 This phase
 %ol
   %li
     = link_to "Activity Design Brainstorming"
-  %li
-    = link_to "Activity List"
+  %li Activity List
   %li
     = link_to "Activity Scenarios"
   %li
@@ -17,3 +15,6 @@
     = link_to "Information Design Claims"
   %li
     = link_to "Representations"
+%hr
+:markdown
+  #{render_markdown "activity_list"}
