@@ -17,4 +17,8 @@ module FileHelper
 		end
 		File.open(file).readlines
 	end
+	
+	def link_to(title, href="./#{urlify(title)}.html")
+		"<a href=\"#{href}\" title=\"#{title}\">#{title}</a>\n"
+	end
 end

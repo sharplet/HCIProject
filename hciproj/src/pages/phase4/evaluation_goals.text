@@ -1,0 +1,40 @@
+Evaluation goals
+----------------
+
+The main issue that we wanted to test in the usability study was the effectiveness of the concept map idea. We asked questions like: Does the concept map aid understanding of the content? Is navigating through different concepts easier or harder with the concept map? Can a concept map be used while still retaining the familiar navigation paradigm of a traditional textbook (i.e., flipping pages, chapters, sections, etc.)?
+
+With these issues in mind, we have described our evaluation goals below.
+
+
+### 1. Is the concept map idea suitable as a replacement for traditional textbooks? ###
+
+Traditional textbooks are read in one of two ways: linearly, or as reference material, using an index to jump to specific portions of the book. Concept maps are very different in their approach, and do not conform to the familiar idea of how we read a book.
+
+A selection of questions from our usability study are designed to answer questions such as
+
+- Are users comfortable navigating via the unfamiliar concept map?
+- What are the benefits of using the concept map?
+- What are the disadvantages of using the concept map?
+- Is a hybrid (traditional plus concept map) approach feasible?
+- If there are clear advantages to a concept map, can we use a hybrid approach to find the best of both worlds?
+
+As a project team, each of us has a scepticism about the usefulness of the concept map in "real life." Consequently, we are seeking to get some indication of whether users will accept the concept mapping idea, or find it too foreign. We will need to ensure that when we run our survey that we do not bias the participants with our own opinions of this matter.
+
+
+### 2. Will highlighting mode be confusing for users, causing them to accidentally highlight things? ###
+
+The team has made a design decision around the action of highlighting text. The convention on iOS is to first select the text using the iOS convention, then tap a "highlight" button that appears by the selected text. The team reasoned that this is not intuitive when the user has the activity of highlighting text in mind. The metaphor is this: tapping the highlight mode button is like picking up a real-world highlighter. Then any text that the user traces their finger across will be highlighted. When finished, the user will turn off highlighting mode, which is like putting your real world highlighter back down. Tracing on the page no longer highlights text.
+
+One goal of our evaluation is to assess whether this functionality does cause confusion in users, or whether it is intuitive.
+
+
+### 3. Is it possible to recreate in digital format the way you can rapidly flick through pages in a traditional textbook? ###
+
+One thing that is missing from current ebook implementations is the ability to flick through pages *ad hoc.* That is, say a student is assigned some end-of-chapter questions as homework. They find the questions, but need to refer to the content of that chapter as a reference. They use their left thumb to flick back through the pages until they *see* the page they want. That is, they didn't necessarily know what page number they were looking for, but recognised it visually.
+
+We asked if this type of interaction can be recreated in an ebook. We have implemented a feature that attempts to solve this problem, and our goal is to assess whether there are any issues with our design.
+
+
+- - -
+
+**Note:** It was suggested that we seek client input in regards to the goals for the usability evaluation. Unfortunately, we were unable to contact the client to get their input. However, from meeting with the client in previous phases, we know that his chief concern is in the area of being able to visually navigate the concept map. We believe usability goal 1 addresses this concern.

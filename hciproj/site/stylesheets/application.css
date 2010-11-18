@@ -22,3 +22,10 @@ a {
 
 img {
   border: 1px solid; }
+
+#nav ul {
+  display: inline; }
+  #nav ul li {
+    display: inline; }
+    #nav ul li.not-last:after {
+      content: " |"; }
