@@ -29,3 +29,32 @@ img {
     display: inline; }
     #nav ul li.not-last:after {
       content: " |"; }
+
+table.phase2 th, table.phase2 td {
+  border: 1px solid #666;
+  font-size: inherit; }
+table.phase2 th, table.phase2 td {
+  width: 266px; }
+table.phase2 .label {
+  width: 200px;
+  padding-left: 10px;
+  vertical-align: top; }
+table.phase2 .header {
+  border: 1px solid black;
+  background: #ccc; }
+table.phase2 .subpoint {
+  padding: 3px 5px 7px; }
+
+table.activity-list {
+  font-size: inherit; }
+  table.activity-list td, table.activity-list th {
+    border-bottom: 1px solid black;
+    padding: 5px; }
+  table.activity-list td {
+    padding: 20 10px; }
+  table.activity-list .label {
+    width: 140px;
+    padding-left: 10px; }
+  table.activity-list th {
+    border: 1px solid black;
+    background: #ccc; }
