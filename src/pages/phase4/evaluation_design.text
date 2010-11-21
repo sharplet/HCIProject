@@ -1,0 +1,47 @@
+##Evaluation Design##
+
+###Overall Goals###
+The overall goals of this evaluation was to determine whether our
+implementation is a) more intuitive/useful than a paper textbook,
+and b) determine ways in which to improve our current design.
+
+###Critical Aspects###
+Aspects we will be evaluating are: 
+
+1.  Ease of use of our prototype relative to a paper book.
+2.  The intuitiveness of the concept map.
+3.  Usefulness of the concept map.
+4.  Ease of returning to the original text after going to a link.
+5.  Intuitiveness of the linear text reading mode.
+6.  Usefulness and intuitiveness of note taking and highlighting features.
+
+Metrics used were the responses from simple Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree multiple choice questions as well as short answer user response questions.
+
+###Evaluation Type###
+For this project we used an empirical evaluation performed by by average
+users. (We assume that that white male engineering students age 18-25 are totally representative of the average user.)
+
+###Recruitment of Subjects###
+Many of the subjects were recruited from friends of Richard's that attended
+a 'dinner and board games night' that Richard hosted over the weekend.
+The other participants were friends of Adam's that had shown an interest
+in participating.
+
+###Procedure###
+The procedure for the usability survey was as follows:
+
+1. Participants were thanked for agreeing to participate and asked to complete an [informed consent form](./appendices.html#informed_consent_form).
+2. Participants completed the [background questionnaire](./appendices.html#background_questionnaire) at survey.vt.edu.
+3. Adam proceeded to explain to the participant the idea behind the prototype, and walk the participant through each feature of the prototype. (The reason for this walk-through approach is that the prototype in Keynote was not completely interactive. This does have the disadvantage of not being able to assess discoverability of features.)
+4. Having completed the prototype walk-through, Adam left the room so that the participant could complete the [usability survey questionnaire](./appendices.html#usability_survey_questionnaire) anonymously.
+
+###Metrics###
+The metrics we used were simply user response data in the form of 
+agree/disagree questions and short answer questions.
+
+###Analysis###
+We will be analyzing the agree/disagree questions by performing various
+statistical analysis on them in Excel.
+
+The short answer questions we will have to evaluate by hand, and determine
+for ourselves which comments justify design changes.
